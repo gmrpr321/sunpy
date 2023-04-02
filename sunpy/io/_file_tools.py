@@ -1,7 +1,7 @@
 """
 This module provides a generic file reader.
 
-warning : 
+warning :
     ``sunpy.io.file_tools`` is deprecated, and will be removed in sunpy 4.1. This is
     because it was designed for internal use only.
 

@@ -1,3 +1,8 @@
+"""
+warning : 
+    ``sunpy.io.cdf`` is deprecated, and will be removed in sunpy 4.1. This is
+    because it was designed for internal use only.
+"""
 import cdflib
 import numpy as np
 import pandas as pd

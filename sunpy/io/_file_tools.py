@@ -1,5 +1,10 @@
 """
 This module provides a generic file reader.
+
+warning : 
+    ``sunpy.io.file_tools`` is deprecated, and will be removed in sunpy 4.1. This is
+    because it was designed for internal use only.
+
 """
 import re
 import gzip
@@ -11,9 +16,9 @@ except ImportError:
     fits = None
 
 try:
-    from . import jp2
+    from . import _jp2
 except ImportError:
-    jp2 = None
+    _jp2 = None
 
 try:
     from . import ana
@@ -48,7 +53,7 @@ class Readers(dict):
 # Map the readers
 _readers = Readers({
     'fits': fits,
-    'jp2': jp2,
+    'jp2': _jp2,
     'ana': ana
 })
 

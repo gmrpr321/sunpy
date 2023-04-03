@@ -7,3 +7,4 @@ __all__ = _cdf.__all__
 
 warn_deprecated("The `sunpy.io.cdf` module is deprecated, as it was designed "
                 "for internal use.")
+

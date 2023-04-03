@@ -122,6 +122,21 @@ The ``sunpy.io.fits`` module is deprecated, and will be removed in version 4.1.
 This because it was designed for internal use only, and removing it from the public API gives the developers more flexibility to modify it without impacting users.
 The `astropy.io.fits` module can be used instead as a replacement that is designed to be user-facing.
 
+Deprecation of ``sunpy.io.jp2``
+================================
+The ``sunpy.io.jp2`` module is deprecated, and will be removed in version 4.1.
+This because it was designed for internal use only, and removing it from the public API gives the developers more flexibility to modify it without impacting users.
+
+Deprecation of ``sunpy.io.file_tools``
+================================
+The ``sunpy.io.file_tools`` module is deprecated, and will be removed in version 4.1.
+This because it was designed for internal use only, and removing it from the public API gives the developers more flexibility to modify it without impacting users.
+
+Deprecation of ``sunpy.io.cdf``
+================================
+The ``sunpy.io.cdf`` module is deprecated, and will be removed in version 4.1.
+This because it was designed for internal use only, and removing it from the public API gives the developers more flexibility to modify it without impacting users.
+
 Deprecation of ``sunpy.physics.solar_rotation``
 ===============================================
 ``sunpy.physics.solar_rotation.calculate_solar_rotate_shift`` and ``sunpy.physics.solar_rotation.mapsequence_solar_derotate`` have been deprecated and will be removed in version 4.1.

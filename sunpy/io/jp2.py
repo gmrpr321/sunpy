@@ -1,6 +1,6 @@
 from sunpy.util.exceptions import warn_deprecated
 from . import _jp2
-from ._jp2 import read,get_header,header_to_xml
+from _jp2 import read
 __doc__ = _jp2.__doc__
 __all__ = _jp2.__all__
 

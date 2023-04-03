@@ -1,5 +1,5 @@
 from sunpy.util.exceptions import warn_deprecated
-from ._file_tools import *
+from ._file_tools import read_file
 from . import _file_tools
 
 __doc__ = _file_tools.__doc__

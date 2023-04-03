@@ -12,7 +12,6 @@ Unified File Readers
 
 .. _iojp2:
 .. automodapi:: sunpy.io.jp2
-  :allowed-package-names: sunpy.io._jp2
 
 .. _ioana:
 .. automodapi:: sunpy.io.ana

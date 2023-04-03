@@ -44,9 +44,6 @@ Removals
   Use `~sunpy.map.GenericMap.shift_reference_coord` instead. (`#6437 <https://github.com/sunpy/sunpy/pull/6437>`__)
 - ``sunpy.util.scraper`` has been removed. Use `sunpy.net.scraper` instead. (`#6438 <https://github.com/sunpy/sunpy/pull/6438>`__)
 - ``sunpy.image.coalignment`` has been removed. Use `sunkit_image.coalignment` instead, which contains all the same functionality. (`#6440 <https://github.com/sunpy/sunpy/pull/6440>`__)
-- ``sunpy.io.cdf`` sub-module has been removed,as it was designed for internal use.
-- ``sunpy.io.file_tools`` sub-module has been removed,as it was designed for internal use.
-- ``sunpy.io.jp2`` sub-module has been removed,as it was designed for internal use.
 - :meth:`sunpy.map.GenericMap.draw_limb` can no longer be used to draw the limb on a non-WCS Axes plot. (`#6533 <https://github.com/sunpy/sunpy/pull/6533>`__)
 - :meth:`sunpy.image.resample` no longer accepts "neighbour" as an interpolation method.
   Use "nearest" instead. (`#6537 <https://github.com/sunpy/sunpy/pull/6537>`__)

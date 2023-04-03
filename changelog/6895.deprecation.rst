@@ -1,0 +1,3 @@
+- ``sunpy.io.cdf`` sub-module has been marked depreciated
+- ``sunpy.io.file_tools`` sub-module has been marked depreciated
+- ``sunpy.io.jp2`` sub-module has been marked depreciated

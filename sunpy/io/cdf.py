@@ -1,4 +1,4 @@
-from cdf import *  # noqa: F401
+from _cdf import *  # noqa: F401
 
 from sunpy.util.exceptions import warn_deprecated
 from . import _cdf
